@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Landing page assessment">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Landing page</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <a class="navbar-brand heading-black" href="index.html">
+                    LOGO
+                </a>
+                <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                        data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span data-feather="grid"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#services">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#contactUs">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <img src="img/card.jpg" width="100%" height="400px" alt="banner">
+            </div>
+            <div class="row firstContent">
+                <div class="col-xs-12 col-sm-12">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur adipiscing elit. Vivamus posuere mauris lectus, molestie eleifend mi tincidunt nec. Aliquam non la</p>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <center><h1><span>SERVICES</span></h1></center>
+            <div class="row secondContent">
+                <div class="col-xs-12 col-sm-6 col-md-4 cards">
+                    <img src="img/handshake.svg" alt="handshake-icon" class="svgIcon">
+                    <h2>BUSINESS SETUP</h2>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi debitis, in est unde aliquid nam vitae!</P>
+                    <div>
+                        <a href="#">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 cards">
+                    <img src="img/bank.svg" alt="wallet-icon" class="svgIcon">
+                    <h2>BANKING</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi debitis, in est unde aliquid nam vitae!</p>
+                    <div>
+                        <a href="#">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 cards">
+                    <img src="img/wallet.svg" alt="wallet-icon" class="svgIcon">
+                    <h2>INSURANCE</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi debitis, in est unde aliquid nam vitae!</p>
+                    <div>
+                        <a href="#">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section id="contactUs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="bottomImg">
+                        <img src="img/footerImg.jpg" class="img-fluid d-block" alt="Work 1"/>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <form method="post" action="/contact" id="contact-form" auto_complete="off">
+                        <fieldset>
+                            <legend>CONTACT US</legend>
+                            <p class="form">
+                                <label>Full Name</label></br>
+                                <input type="text" id="fullName", name="fullName" required placeholder="John Doe">
+                            </p>
+                            <p class="form">
+                                <label>Mobile</label></br>
+                                <input type="tel" id="phone", name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="ex: 971-273-4578">
+                            </p>
+                            <p class="form">
+                                <label>Email</label></br>
+                                <input type="email" id="mail", name="mail" required placeholder="JohnDoe@gmail.com">
+                            </p>
+                        </fieldset>
+                        <p align="center">
+                            <input type="submit" value="SUBMIT">
+                        </p>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
